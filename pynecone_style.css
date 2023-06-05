@@ -1,6 +1,6 @@
 /* spacing */
 table {
-    table-layout: auto;
+    table-layout: fixed;
     width: 100%;
 }
 
@@ -12,7 +12,6 @@ th {
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
-    color: black;
 }
 
 tr:hover {
@@ -23,80 +22,67 @@ th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #818583;
+    background-color: #04AA6D;
     color: white;
 }
 
-div:has(pre){
-    width:  100%;    
+p {
+    margin: 10px auto
 }
-
-pre {
-    width:  100%;
-    overflow: auto;
-}
-
-ul li, ol li {
-    margin-bottom: 10px;
-}
-
-/* @group Headings */
 
 h1,h2,h3,h4,h5,h6 {
-	line-height: 1 !Important;
-	margin: 0 !Important;
-	margin-top: 1.5rem !Important;
-	text-align: left !Important;
-	text-rendering: optimizeLegibility;
+	line-height: 1 !important;
+	margin: 0 !important;
+	margin-top: 1.5rem !important;
+	text-align: left !important;
+	text-rendering: optimizeLegibility !important;
 }
 
-h1 { font-size: 1.25rem !Important; }
-h2 { font-size: 1.1rem !Important; }
-h3 { font-size: 1rem !Important; }
+h1 { font-size: 1.25rem !important; }
+h2 { font-size: 1.1rem !important; }
+h3 { font-size: 1rem !important; }
 
 h2 em, h3 em{
-	color:grey;
+	color:grey !important;
 }
 
 /* @end */
 
 small {
-	font-size: 65%;
+	font-size: 65% !important;
 }
 
 p {
-	margin-top: .75rem;
+	margin-top: .75rem !important;
 }
 
 hr {
-	margin: .75rem 0;
-	opacity: .5;
+	margin: .75rem 0 !important;
+	opacity: .5 !important;
 }
 
 ol,ul {
-	margin-top: .75rem;
-	text-align: left;
+	margin-top: .75rem !important;
+	text-align: left !important;
 }
 
 ol ul, ol ol, ul ul, ul ol {
-	margin-left: 2rem;
-	margin-bottom: .75rem;
-	text-align: left;
+	margin-left: 2rem !important;
+	margin-bottom: .75rem !important;
+	text-align: left !important;
 }
 
 li {
-	margin: .5em 0;
+	margin: .5em 0 !important;
 }
 
 abbr {
-	font-variant: small-caps;
-	font-weight: 600;
-	text-transform: lowercase;
+	font-variant: small-caps !important;
+	font-weight: 600 !important;
+	text-transform: lowercase !important;
 	color: #808080;
 }
 
 body {
-    text-align: left;
+    text-align: left !important;
 }
-
-
