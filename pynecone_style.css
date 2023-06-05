@@ -27,10 +27,6 @@ th {
     color: white;
 }
 
-p {
-    line-height:1.5;
-}
-
 div:has(pre){
     width:  100%;    
 }
@@ -38,7 +34,6 @@ div:has(pre){
 pre {
     width:  100%;
     overflow: auto;
-    
 }
 
 ul li, ol li {
@@ -67,10 +62,35 @@ h2 em, h3 em{
 
 /* @end */
 
-ul, ol {
-    margin-left: 20px;
+small {
+	font-size: 65%;
 }
 
-ul:first-child, ol:first-child {
-    margin-left: 0;
+p {
+	margin-top: .75rem;
+}
+
+hr {
+	margin: .75rem 0;
+	opacity: .5;
+}
+
+ol,ul {
+	margin-top: .75rem;
+}
+
+ol ul, ol ol, ul ul, ul ol {
+	margin-left: 2rem;
+	margin-bottom: .75rem;
+}
+
+li {
+	margin: .5em 0;
+}
+
+abbr {
+	font-variant: small-caps;
+	font-weight: 600;
+	text-transform: lowercase;
+	color: #808080;
 }
