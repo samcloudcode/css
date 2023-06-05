@@ -28,22 +28,22 @@ th {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.3em;
     margin-bottom: 0.5em;
 }
 
 h2 {
-    font-size: 1.75em;
-    margin-bottom: 0.75em;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
 }
 
 h3 {
-    font-size: 1.5em;
-    margin-bottom: 1em;
+    font-size: 1.1em;
+    margin-bottom: 0.3em;
 }
 
 p {
-    line-height:2;
+    line-height:1.5;
 }
 
 div:has(pre){
