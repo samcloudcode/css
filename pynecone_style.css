@@ -45,23 +45,27 @@ ul li, ol li {
     margin-bottom: 10px;
 }
 
-h1 {
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 0.5em;
+/* @group Headings */
+
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1;
+	margin: 0;
+	margin-top: 1.5rem;
+	text-rendering: optimizeLegibility;
 }
 
-h2 {
-    font-size: 1.5em;
-    color: #666;
-    margin-bottom: 0.75em;
+h1 { font-size: 2.75rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.65rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 1rem; }
+
+h2 em, h3 em{
+	color:grey;
 }
 
-h3 {
-    font-size: 1.25em;
-    color: #999;
-    margin-bottom: 1em;
-}
+/* @end */
 
 ul, ol {
     margin-left: 20px;
