@@ -40,3 +40,8 @@ pre {
     overflow: auto;
     
 }
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
