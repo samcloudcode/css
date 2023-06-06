@@ -43,7 +43,7 @@ ul li, ol li {
 /* @group Headings */
 
 h1,h2,h3,h4,h5,h6 {
-	margin-top: 1.5em !important;
+	margin-top: 0.5em !important;
 	margin-bottom: 0.5em !important;
 	text-align: left !important;
 	text-rendering: optimizeLegibility !important; 
@@ -64,7 +64,7 @@ small {
 }
 
 p {
-	margin-top: .75rem;
+	margin-top: 1rem;
 }
 
 hr {
@@ -73,14 +73,12 @@ hr {
 }
 
 ol,ul {
-	margin-top: .75rem;
-	text-align: left;
+	margin-top: 1rem;
 }
 
 ol ul, ol ol, ul ul, ul ol {
 	margin-left: 2rem;
 	margin-bottom: .75rem;
-	text-align: left;
 }
 
 li {
@@ -93,9 +91,3 @@ abbr {
 	text-transform: lowercase;
 	color: #808080;
 }
-
-body {
-    text-align: left;
-}
-
-
