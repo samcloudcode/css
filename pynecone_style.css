@@ -64,7 +64,8 @@ small {
 }
 
 p {
-	margin-top: 1rem;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 hr {
@@ -77,7 +78,6 @@ ol,ul {
 }
 
 ol ul, ol ol, ul ul, ul ol {
-	margin-left: 2rem;
 	margin-bottom: .75rem;
 }
 
