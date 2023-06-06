@@ -43,15 +43,15 @@ ul li, ol li {
 /* @group Headings */
 
 h1,h2,h3,h4,h5,h6 {
-	margin-top: 1.5em !Important;
-	margin-bottom: 0.5em !Important;
-	text-align: left !Important;
-	text-rendering: optimizeLegibility !Important; 
+	margin-top: 1.5em !important;
+	margin-bottom: 0.5em !important;
+	text-align: left !important;
+	text-rendering: optimizeLegibility !important; 
 }
 
-h1 { font-size: 2.0em !Important; }
-h2 { font-size: 1.5em !Important; }
-h3 { font-size: 1.2em !Important; }
+h1 { font-size: 2.0em !important; }
+h2 { font-size: 1.5em !important; }
+h3 { font-size: 1.2em !important; }
 
 h2 em, h3 em{
 	color:grey;
